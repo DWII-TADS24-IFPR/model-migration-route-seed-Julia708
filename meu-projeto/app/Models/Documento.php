@@ -7,5 +7,6 @@ use Illuminate\Database\Eloquent\Model;
 
 class Documento extends Model
 {
-    use HasFactory;
+    protected $table = 'documentos';
+    protected $fillable = ['url', 'descricao', 'horas_in', 'status', 'comentaio', 'horas_out'];
 }
