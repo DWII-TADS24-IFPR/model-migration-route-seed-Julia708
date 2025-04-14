@@ -11,7 +11,7 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('turms', function (Blueprint $table) {
+        Schema::create('turmas', function (Blueprint $table) {
             $table->id();
             $table->integer('ano');
             $table->softDeletes();
